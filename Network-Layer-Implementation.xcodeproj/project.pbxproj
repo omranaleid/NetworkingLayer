@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B485AAB2350EFB5002E6F3B /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B485AAA2350EFB5002E6F3B /* ApiManager.swift */; };
+		1B485AAD2350F383002E6F3B /* CityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B485AAC2350F383002E6F3B /* CityResponse.swift */; };
 		1B4F2D1B234CD3930081C9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D1A234CD3930081C9FD /* AppDelegate.swift */; };
 		1B4F2D1D234CD3930081C9FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D1C234CD3930081C9FD /* SceneDelegate.swift */; };
 		1B4F2D1F234CD3930081C9FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D1E234CD3930081C9FD /* ContentView.swift */; };
 		1B4F2D21234CD3940081C9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F2D20234CD3940081C9FD /* Assets.xcassets */; };
 		1B4F2D24234CD3940081C9FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F2D23234CD3940081C9FD /* Preview Assets.xcassets */; };
 		1B4F2D27234CD3940081C9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F2D25234CD3940081C9FD /* LaunchScreen.storyboard */; };
+		1B4F2D30234CD3C60081C9FD /* NetworkEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D2F234CD3C60081C9FD /* NetworkEndPoint.swift */; };
+		1B4F2D32234CD9BF0081C9FD /* NetworkRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D31234CD9BF0081C9FD /* NetworkRequestBuilder.swift */; };
+		1B4F2D34234D17050081C9FD /* EndPointExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D33234D17050081C9FD /* EndPointExample.swift */; };
+		1B4F2D36234D180D0081C9FD /* NetworkParametersEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D35234D180D0081C9FD /* NetworkParametersEncoder.swift */; };
+		1B4F2D38234D20510081C9FD /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F2D37234D20510081C9FD /* NetworkRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B485AAA2350EFB5002E6F3B /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		1B485AAC2350F383002E6F3B /* CityResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityResponse.swift; sourceTree = "<group>"; };
 		1B4F2D17234CD3930081C9FD /* Network-Layer-Implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network-Layer-Implementation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4F2D1A234CD3930081C9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4F2D1C234CD3930081C9FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		1B4F2D23234CD3940081C9FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B4F2D26234CD3940081C9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B4F2D28234CD3940081C9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4F2D2F234CD3C60081C9FD /* NetworkEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndPoint.swift; sourceTree = "<group>"; };
+		1B4F2D31234CD9BF0081C9FD /* NetworkRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestBuilder.swift; sourceTree = "<group>"; };
+		1B4F2D33234D17050081C9FD /* EndPointExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointExample.swift; sourceTree = "<group>"; };
+		1B4F2D35234D180D0081C9FD /* NetworkParametersEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParametersEncoder.swift; sourceTree = "<group>"; };
+		1B4F2D37234D20510081C9FD /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,9 @@
 		1B4F2D19234CD3930081C9FD /* Network-Layer-Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				1B4F2D2E234CD3990081C9FD /* Networking */,
 				1B4F2D1A234CD3930081C9FD /* AppDelegate.swift */,
+				1B485AAC2350F383002E6F3B /* CityResponse.swift */,
 				1B4F2D1C234CD3930081C9FD /* SceneDelegate.swift */,
 				1B4F2D1E234CD3930081C9FD /* ContentView.swift */,
 				1B4F2D20234CD3940081C9FD /* Assets.xcassets */,
@@ -73,6 +89,19 @@
 				1B4F2D23234CD3940081C9FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B4F2D2E234CD3990081C9FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F2D2F234CD3C60081C9FD /* NetworkEndPoint.swift */,
+				1B4F2D31234CD9BF0081C9FD /* NetworkRequestBuilder.swift */,
+				1B4F2D35234D180D0081C9FD /* NetworkParametersEncoder.swift */,
+				1B4F2D33234D17050081C9FD /* EndPointExample.swift */,
+				1B4F2D37234D20510081C9FD /* NetworkRouter.swift */,
+				1B485AAA2350EFB5002E6F3B /* ApiManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4F2D1B234CD3930081C9FD /* AppDelegate.swift in Sources */,
+				1B485AAB2350EFB5002E6F3B /* ApiManager.swift in Sources */,
+				1B4F2D38234D20510081C9FD /* NetworkRouter.swift in Sources */,
 				1B4F2D1D234CD3930081C9FD /* SceneDelegate.swift in Sources */,
+				1B4F2D36234D180D0081C9FD /* NetworkParametersEncoder.swift in Sources */,
+				1B485AAD2350F383002E6F3B /* CityResponse.swift in Sources */,
 				1B4F2D1F234CD3930081C9FD /* ContentView.swift in Sources */,
+				1B4F2D32234CD9BF0081C9FD /* NetworkRequestBuilder.swift in Sources */,
+				1B4F2D30234CD3C60081C9FD /* NetworkEndPoint.swift in Sources */,
+				1B4F2D34234D17050081C9FD /* EndPointExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

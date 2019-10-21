@@ -29,6 +29,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        ApiManager.shared.doRequest(route: .cities, decodingType: CityResponse.self) { (res) in
+            print(res)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
