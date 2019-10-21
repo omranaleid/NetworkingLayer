@@ -33,7 +33,7 @@ extension PRNetworkError: LocalizedError {
 }
 
 class ApiManager {
-    private let exampleRouter = Router<ExampleEndpoint>(rootUrl: "https://admin.theprsnls.com", prefix: "/api")
+    private let exampleRouter = Router<ExampleEndpoint>(rootUrl: "", prefix: "")
     
     private init() { }
     
